@@ -1,15 +1,15 @@
 import React from "react";
 import "./App.scss";
-
+import NameTag from "./components/nameTag";
 
 function App() {
   return (
     <div className="App">
       <header className="App-header">
         <h1 className="name title">Names List</h1>
-        <h3 className="name">Peter</h3>
-        <h3 className="name">John</h3>
-        <h3 className="name">Jill</h3>
+        <NameTag>Peter</NameTag>
+        <NameTag>John</NameTag>
+        <NameTag>Jill</NameTag>
       </header>
     </div>
   );
