@@ -1,7 +1,10 @@
-import React from "react";
+import React from 'react'
+
 
 const Input = ({placeholder, type}) => {
-  return <input placeholder={placeholder} type={type}></input>;
-};
+  return (
+    <input placeholder={placeholder} type={type}></input>
+  )
+}
 
-export default Input;
+export default Input
