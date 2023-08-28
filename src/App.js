@@ -10,6 +10,7 @@ function App() {
         <NameTag firstName="peter" lastName="peterson"></NameTag>
         <NameTag firstName="john" lastName="johnson"></NameTag>
         <NameTag firstName="jill" lastName="jillion"></NameTag>
+        <NameTag></NameTag>
       </header>
     </div>
   );
