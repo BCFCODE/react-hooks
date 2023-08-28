@@ -1,7 +1,7 @@
 import React from "react";
 import "./App.scss";
 import NameTag from "./components/nameTag";
- 
+
 function App() {
   return (
     <div className="App">
