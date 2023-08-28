@@ -1,13 +1,15 @@
 import React from "react";
 import "./App.scss";
-import Input from './components/Input'
-
+import NameTag from "./components/nameTag";
 
 function App() {
   return (
     <div className="App">
       <header className="App-header">
-        <Input placeholder="Email" type="text"></Input>
+        <h1 className="name title">Names List</h1>
+        <NameTag>peter</NameTag>
+        <NameTag>john</NameTag>
+        <NameTag>jill</NameTag>
       </header>
     </div>
   );
